@@ -13,8 +13,8 @@ if (getCookie("login")){
 function responseFunction(result){
     console.log(result);
     if (result.status === 200){
-        // redirect("/qr");
+        redirect("/qr");
     }else{
-        // redirect("/login");
+        redirect("/register");
     }
 }
